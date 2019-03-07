@@ -15,7 +15,7 @@ public class Main {
             Scanner scn = new Scanner(System.in);
             System.out.println("Please enter first value:");
             firstValue = scn.nextDouble();
-            System.out.println("Please enter operation symbol: ");
+            System.out.println("Please enter operation symbol (+ - / *): ");
             operation = scn.nextLine(); // reads empty line from console
             operation = scn.nextLine();
             System.out.println("Please enter second value:");
